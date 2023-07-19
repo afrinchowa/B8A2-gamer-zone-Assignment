@@ -1,0 +1,43 @@
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px 20px 0px;
+    }
+    .nav-section{
+        flex-direction: column;
+       }
+   .nav-section a {
+        margin-bottom: 20px;
+    }
+    .logo-section{
+        margin-bottom: 20px;
+    }
+    .we-are-gamer{
+       flex-direction: column; 
+    }
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner-content{
+        min-width: 100%;
+      margin-left:520px ;
+    }
+
+    .we-are-gamer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .we-gamer-picture{
+        width: 100%;
+    }
+    .gamer-content{
+        width: 100%;
+        text-align: center;
+    }
+    .grid-container{
+        grid-template-columns:1fr ;
+    }
+
+}
