@@ -1,5 +1,37 @@
 @media screen and (max-width:576px) {
 
+    .btn-primary {
+        padding: 11px 20px;
+        font-size: 10px;
+        font-weight: 400;
+       
+    }
+    .btn-secondary{
+        padding: 11px 20px;
+        font-size: 10px;
+        font-weight: 400;
+       
+    }
+    .btn-third{
+        padding: 11px 20px;
+        font-size: 10px;
+        font-weight: 400;
+       
+    }
+    .banner-heading{
+        font-size: 38px;
+    font-weight: 600;
+    }
+    .banner-title{
+        font-size: 65px;
+        font-weight: 800;
+    }
+
+
+
+
+
+
     nav,
     .we-are-gamer, .footer-option  {
         flex-direction: column;
