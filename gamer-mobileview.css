@@ -6,6 +6,9 @@
 
 
     }
+   #logo{
+padding-left: 90px;
+    }
 
     .nav-section {
         flex-direction: column;
