@@ -1,26 +1,20 @@
-@media screen and (max-width:576px) {
-
-    nav,
-    .we-are-gamer, .footer-option  {
-        flex-direction: column;
-
-
-    }
+@media screen and (min-width:576px) and (max-width:992px){
+   
 
     .nav-section {
-        flex-direction: column;
+       
         text-align: center;
     }
 
     .nav-section a {
         margin-bottom: 20px;
+        margin-right: 50px;
     }
 
     .logo-section {
         margin-bottom: 20px;
         width: 100%;
     }
-
     .banner {
         flex-direction: column-reverse;
         align-items: center;
@@ -65,7 +59,7 @@
     }
 
     .grid-container {
-        grid-template-columns: 1fr;
+        grid-template-columns:repeat(2, 1fr);
     }
 
     /* play section */
@@ -139,12 +133,7 @@
         height: auto;
     }
     .logo-section{
-        margin: 0;
-    }
-
-    .footer-option{
-
-        grid-template-columns: repeat(3, 1fr);
+        margin: 0 0 0 180px;
     }
 
     .footer-content {
@@ -152,19 +141,18 @@
         /* flex-direction: column; */
     }
     .grid-container2{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin-bottom: 50px;
     }
     .social-links{
         width: 100%;
     }
     .policy{
-       grid-template-columns:repeat(4, 1fr) ;
+        flex-direction: column;
     }
     .end{
     margin-bottom: 50px;
 }
-
-
 }
+
 
